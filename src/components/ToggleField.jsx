@@ -1,10 +1,10 @@
-import Button from './Button';
+// import Link from './Link';
 
 const ToggleField = (props) => {
 	const { toggleFieldList } = props;
 
 	let formattedToggleFieldList = toggleFieldList.map((item) => {
-		return <Button key={item} buttonText={item} buttonClass='nav-button' />;
+		return <Link key={item} LinkText={item} LinkClass='nav-link' />;
 	});
 
 	return <div className='nav-toggle'>{formattedToggleFieldList}</div>;

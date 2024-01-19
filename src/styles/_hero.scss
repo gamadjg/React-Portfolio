@@ -1,0 +1,48 @@
+@import './mixins';
+
+.container-content {
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	gap: 2rem;
+
+	@include container-content(row);
+
+	.hero-container-left {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+
+		.hero-left-btns {
+			display: flex;
+			gap: 10px;
+
+			.hero-contact-btn {
+				text-align: center;
+				font-size: large;
+				text-decoration: none;
+				border-radius: 10px;
+				background: rgb(109, 177, 171);
+				padding: 2px 8px;
+				color: black;
+				&:hover {
+					background: rgb(96, 155, 150);
+				}
+			}
+
+			.hero-download-btn {
+				text-align: center;
+				font-size: large;
+				border: none;
+				border-radius: 10px;
+				background: rgb(109, 177, 171);
+				padding: 2px 8px;
+				color: black;
+				&:hover {
+					background: rgb(96, 155, 150);
+				}
+			}
+		}
+	}
+}

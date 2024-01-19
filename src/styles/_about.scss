@@ -1,0 +1,10 @@
+@import './mixins';
+
+.about-content {
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// gap: 2rem;
+
+	@include container-content(row);
+}

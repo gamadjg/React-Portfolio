@@ -1,12 +1,11 @@
 .nav {
-	font-family: 'Inter', sans-serif;
 	display: flex;
 	justify-content: space-between;
-	.nav-toggle {
+	.nav-link-section {
 		display: flex;
 		gap: 2rem;
 	}
-	.nav-button {
+	.nav-link {
 		font-size: x-large;
 		padding: 3px 8px;
 		color: rgb(120, 196, 190);

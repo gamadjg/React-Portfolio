@@ -1,0 +1,7 @@
+@mixin container-content($direction) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+	gap: 2rem;
+}

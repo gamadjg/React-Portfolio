@@ -1,6 +1,10 @@
 const Button = (buttonFields) => {
-	const { buttonText, buttonClass } = buttonFields;
-	return <div className={buttonClass}>{buttonText}</div>;
+	const { buttonText, buttonClass, handleClick } = buttonFields;
+	return (
+		<button className={buttonClass} onClick={handleClick}>
+			{buttonText}
+		</button>
+	);
 };
 
 export default Button;
