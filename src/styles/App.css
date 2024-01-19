@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav-toggle {
+  display: flex;
+  gap: 2rem;
+}
+.nav .nav-button {
+  padding: 2px 5px;
+  border: 2px rgb(108, 180, 174) solid;
+  border-radius: 10px;
+  background: rgb(127, 205, 198);
+  color: black;
+}
+.nav .nav-button:hover {
+  background: rgb(109, 177, 171);
+}
+
+body {
+  background: #252525;
+  color: white;
+  padding: 2rem;
+}/*# sourceMappingURL=App.css.map */

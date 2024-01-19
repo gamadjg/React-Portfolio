@@ -1,0 +1,18 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	.nav-toggle {
+		display: flex;
+		gap: 2rem;
+	}
+	.nav-button {
+		padding: 2px 5px;
+		border: 2px rgb(108, 180, 174) solid;
+		border-radius: 10px;
+		background: rgb(127, 205, 198);
+		color: black;
+		&:hover {
+			background: rgb(109, 177, 171);
+		}
+	}
+}
