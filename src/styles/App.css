@@ -1,4 +1,5 @@
 .nav {
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-between;
 }
@@ -7,14 +8,12 @@
   gap: 2rem;
 }
 .nav .nav-button {
-  padding: 2px 5px;
-  border: 2px rgb(108, 180, 174) solid;
-  border-radius: 10px;
-  background: rgb(127, 205, 198);
-  color: black;
+  font-size: x-large;
+  padding: 3px 8px;
+  color: rgb(120, 196, 190);
 }
 .nav .nav-button:hover {
-  background: rgb(109, 177, 171);
+  color: rgb(109, 177, 171);
 }
 
 body {
