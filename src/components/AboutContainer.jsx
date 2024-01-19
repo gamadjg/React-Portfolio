@@ -1,10 +1,10 @@
-export const AboutContainer = () => {
+export const AboutContainer = ({ aboutContent }) => {
 	return (
 		<section className='container'>
 			<div className='container-title'>About</div>
 			<section className='about-content'>
-				<div>test</div>
-				<div>test 2</div>
+				<div>{aboutContent.about}</div>
+				<div>{aboutContent.education}</div>
 			</section>
 		</section>
 	);

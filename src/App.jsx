@@ -1,5 +1,5 @@
-import './styles/App.css';
-import { db } from './assets/db.js';
+import './styles/App.scss';
+import db from './assets/db.js';
 import { Nav } from './components/Nav';
 import { HeroContainer } from './components/HeroContainer.jsx';
 import { AboutContainer } from './components/AboutContainer.jsx';
@@ -9,17 +9,14 @@ import { WorkContainer } from './components/WorkContainer.jsx';
 import { ContactContainer } from './components/ContactContainer.jsx';
 
 function App() {
-	let contentAreas = [];
-	for (const item of db.content) {
-		contentAreas.push(item.name);
-	}
+	let contentAreas = Object.keys(db);
 
 	return (
 		<main>
 			<Nav contentAreas={contentAreas} />
 			<HeroContainer />
-			<AboutContainer />
-			<SkillsContainer />
+			<AboutContainer aboutContent={db.About} />
+			<SkillsContainer skillsContent={db.Skills} />
 			<ProjectsContainer />
 			<WorkContainer />
 			<ContactContainer />

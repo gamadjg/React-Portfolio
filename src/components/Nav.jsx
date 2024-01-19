@@ -1,6 +1,4 @@
-export const Nav = (props) => {
-	const { contentAreas } = props;
-
+export const Nav = ({ contentAreas }) => {
 	let formattedLinks = contentAreas.map((link) => {
 		return (
 			<a key={link} className='nav-link' href={`#${link}`}>

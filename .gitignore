@@ -232,7 +232,7 @@ sketch
 *.css.map
 *.sass.map
 *.scss.map
-
+App.css
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
