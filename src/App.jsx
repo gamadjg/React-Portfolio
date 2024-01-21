@@ -18,7 +18,7 @@ function App() {
 			<AboutContainer aboutContent={db.About} />
 			<SkillsContainer skillsContent={db.Skills} />
 			<ProjectsContainer projectsContent={db.Projects} />
-			<WorkContainer />
+			<WorkContainer workContent={db.Work} />
 			<ContactContainer />
 		</main>
 	);

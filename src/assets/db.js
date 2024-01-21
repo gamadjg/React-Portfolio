@@ -49,8 +49,8 @@ export default {
 		},
 		{
 			company: 'California State University, Sacramento',
-			started: '06-2013',
-			ended: '06-2016',
+			started: '06/13',
+			ended: '06/16',
 			role: 'IT Support',
 			description: 'sdf',
 		},
@@ -59,7 +59,7 @@ export default {
 		Web: [
 			{
 				title: 'Portfolio Site',
-				where: '',
+				where: 'Personal',
 				github: 'https://github.com/gamadjg/React-Portfolio',
 				liveLink: 'this',
 				year: '2024',
@@ -94,49 +94,5 @@ export default {
 			},
 		],
 	},
-	// Projects: [
-	// 	{
-	// 		listName: 'Web',
-	// 		list: [
-	// 			{
-	// 				title: 'Portfolio Site',
-	// 				where: '',
-	// 				github: '',
-	// 				liveLink: '',
-	// 				year: '2024',
-	// 				role: 'full-stack software developer',
-	// 				description: '',
-	// 			},
-	// 			{
-	// 				title: 'Milestoned',
-	// 				where: 'Chingu',
-	// 				github: '',
-	// 				liveLink: '',
-	// 				year: '2023',
-	// 				role: 'front-end developer',
-	// 				description: '',
-	// 			},
-	// 		],
-	// 	},
-	// 	{
-	// 		listName: 'IT',
-	// 		list: [
-	// 			{
-	// 				title: 'Okta',
-	// 				where: 'Clarke Consulting',
-	// 				year: '2022',
-	// 				role: 'IT Systems Specialist',
-	// 				description: '',
-	// 			},
-	// 			{
-	// 				title: 'Onboarding',
-	// 				where: 'Clarke Consulting',
-	// 				year: '2022',
-	// 				role: 'IT Systems Specialist',
-	// 				description: '',
-	// 			},
-	// 		],
-	// 	},
-	// ],
 	Contact: {},
 };

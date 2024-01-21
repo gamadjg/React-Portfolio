@@ -1,10 +1,22 @@
 @import './mixins';
 
 .work-content {
-	// display: flex;
-	// justify-content: center;
-	// align-items: center;
-	// gap: 2rem;
-
 	@include container-content(column);
+	width: 80%;
+	.work-item {
+		width: 100%;
+		margin-bottom: 2rem;
+		.work-header {
+			display: flex;
+			justify-content: space-between;
+
+			.work-header-left {
+				display: flex;
+				gap: 1rem;
+			}
+
+			// .project-header-right {
+			// }
+		}
+	}
 }

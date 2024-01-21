@@ -37,7 +37,7 @@ export const ProjectsContainer = ({ projectsContent }) => {
 					<div className='project-header-right'>{listItem.year}</div>
 				</section>
 				<div className='project-role'>{listItem.role}</div>
-				<div className='proejct-description'>{listItem.description}</div>
+				<div className='project-description'>{listItem.description}</div>
 			</section>
 		);
 	});
@@ -45,7 +45,6 @@ export const ProjectsContainer = ({ projectsContent }) => {
 	return (
 		<section className='container'>
 			<div className='container-title'>Projects</div>
-
 			<section className='projects-content'>
 				<div className='projects-toggle-field-container'>{formattedToggleFields}</div>
 				<div className='projects-list'>{formattedList}</div>
