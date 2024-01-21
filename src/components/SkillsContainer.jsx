@@ -13,9 +13,9 @@ export const SkillsContainer = ({ skillsContent }) => {
 		});
 
 		return (
-			<div key={item.listName} className='list-container'>
+			<div key={item.listName} className='skills-list-column'>
 				<div className='skills-list-title'>{item.listName}</div>
-				<div>{list}</div>
+				<div className='skills-list'>{list}</div>
 			</div>
 		);
 	});

@@ -9,16 +9,35 @@ export default {
 	Skills: [
 		{
 			listName: 'Software Development',
-			list: ['t1'],
+			list: [
+				'JavaScript',
+				'Typescript',
+				'React',
+				'NextJS',
+				'Redux',
+				'TailwindCSS',
+				'SCSS',
+				'Vite',
+				'NodeJS',
+				'Express',
+				'MongoDB',
+				'MySQL',
+				'PostgreSQL',
+				'Python',
+				'Flask',
+				'Java',
+				'Spring Boot',
+				'Postman',
+			],
 		},
 		{
-			listName: 'IT Operations',
-			list: ['t1'],
+			listName: 'IT Systems',
+			list: ['IAM', 'Intune', 'AWS', 'GCP', 'Jira', 'ServiceNow', 'FreshDesk', 'Active Directory'],
 		},
-		{
-			listName: 'Systems Engineering',
-			list: ['t1'],
-		},
+		// {
+		// 	listName: 'Management related skills',
+		// 	list: ['SOC 2', 'RMM'],
+		// },
 	],
 	Work: [
 		{
