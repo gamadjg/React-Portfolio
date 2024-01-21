@@ -17,7 +17,7 @@ function App() {
 			<HeroContainer />
 			<AboutContainer aboutContent={db.About} />
 			<SkillsContainer skillsContent={db.Skills} />
-			<ProjectsContainer />
+			<ProjectsContainer projectsContent={db.Projects} />
 			<WorkContainer />
 			<ContactContainer />
 		</main>

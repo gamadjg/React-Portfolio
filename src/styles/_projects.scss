@@ -7,4 +7,34 @@
 	// gap: 2rem;
 
 	@include container-content(column);
+	width: 100%;
+	.projects-toggle-field-container {
+		display: flex;
+		gap: 1rem;
+
+		.projects-toggle {
+			border-radius: 10px;
+		}
+	}
+
+	.projects-list {
+		width: 80%;
+
+		.project-item {
+			margin-bottom: 2rem;
+			.project-header {
+				display: flex;
+				justify-content: space-between;
+
+				.project-header-left {
+					display: flex;
+					// padding: 10px;
+					gap: 1rem;
+				}
+
+				// .project-header-right {
+				// }
+			}
+		}
+	}
 }

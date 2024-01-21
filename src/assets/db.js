@@ -60,8 +60,8 @@ export default {
 			{
 				title: 'Portfolio Site',
 				where: '',
-				github: '',
-				liveLink: '',
+				github: 'https://github.com/gamadjg/React-Portfolio',
+				liveLink: 'this',
 				year: '2024',
 				role: 'full-stack software developer',
 				description: '',
@@ -69,13 +69,14 @@ export default {
 			{
 				title: 'Milestoned',
 				where: 'Chingu',
-				github: '',
-				liveLink: '',
+				github: 'https://github.com/gamadjg/Milestoned',
+				liveLink: 'https://milestoned.gama.dev/',
 				year: '2023',
 				role: 'front-end developer',
 				description: '',
 			},
 		],
+
 		IT: [
 			{
 				title: 'Okta',
@@ -93,5 +94,49 @@ export default {
 			},
 		],
 	},
+	// Projects: [
+	// 	{
+	// 		listName: 'Web',
+	// 		list: [
+	// 			{
+	// 				title: 'Portfolio Site',
+	// 				where: '',
+	// 				github: '',
+	// 				liveLink: '',
+	// 				year: '2024',
+	// 				role: 'full-stack software developer',
+	// 				description: '',
+	// 			},
+	// 			{
+	// 				title: 'Milestoned',
+	// 				where: 'Chingu',
+	// 				github: '',
+	// 				liveLink: '',
+	// 				year: '2023',
+	// 				role: 'front-end developer',
+	// 				description: '',
+	// 			},
+	// 		],
+	// 	},
+	// 	{
+	// 		listName: 'IT',
+	// 		list: [
+	// 			{
+	// 				title: 'Okta',
+	// 				where: 'Clarke Consulting',
+	// 				year: '2022',
+	// 				role: 'IT Systems Specialist',
+	// 				description: '',
+	// 			},
+	// 			{
+	// 				title: 'Onboarding',
+	// 				where: 'Clarke Consulting',
+	// 				year: '2022',
+	// 				role: 'IT Systems Specialist',
+	// 				description: '',
+	// 			},
+	// 		],
+	// 	},
+	// ],
 	Contact: {},
 };

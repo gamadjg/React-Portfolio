@@ -1,8 +1,4 @@
 export const SkillsContainer = ({ skillsContent }) => {
-	// for (const item of skillsContent) {
-	// 	console.log(item.listName);
-	// }
-
 	const formattedSkills = skillsContent.map((item) => {
 		const list = item['list'].map((listItem) => {
 			return (
