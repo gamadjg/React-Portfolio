@@ -4,7 +4,7 @@ export const AboutContainer = ({ aboutContent }) => {
 			<div className='container-title'>About</div>
 			<section className='about-content'>
 				<div>{aboutContent.about}</div>
-				<div>{aboutContent.education}</div>
+				{/* <div>{aboutContent.education}</div> */}
 			</section>
 		</section>
 	);

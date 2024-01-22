@@ -1,0 +1,27 @@
+@import './mixins';
+
+.footer-content {
+	display: flex;
+	width: 100%;
+	align-items: end;
+	justify-content: end;
+	color: #9ca2a9;
+
+	.socials {
+		width: 100%;
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		// width: 100%;
+		gap: 1rem;
+		margin-bottom: 5px;
+
+		img {
+			filter: invert(50%) sepia(2%) saturate(2273%) hue-rotate(181deg) brightness(82%) contrast(85%);
+			max-width: 50px;
+		}
+	}
+	a {
+		color: #9ca2a9;
+	}
+}

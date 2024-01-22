@@ -1,10 +1,25 @@
 .nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: end;
+	align-items: center;
+	gap: 1rem;
 	.nav-link-section {
 		display: flex;
 		gap: 2rem;
 	}
+	.socials {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		img {
+			// filter: invert(79%) sepia(5%) saturate(403%) hue-rotate(172deg) brightness(81%) contrast(88%);
+			filter: invert(50%) sepia(2%) saturate(2273%) hue-rotate(181deg) brightness(82%) contrast(85%);
+			max-width: 50px;
+		}
+	}
+	// }
+
 	.nav-link {
 		font-size: x-large;
 		padding: 3px 8px;

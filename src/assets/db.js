@@ -4,7 +4,10 @@ export default {
 	},
 	About: {
 		about: 'writeup',
-		education: 'education',
+		education: [
+			{ school: 'Coding Dojo', start: 2022, end: 2023 },
+			{ school: 'California State University - Sacramento', start: 2010, end: 2017 },
+		],
 	},
 	Skills: [
 		{

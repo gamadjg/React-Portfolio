@@ -7,6 +7,7 @@ import { SkillsContainer } from './components/SkillsContainer.jsx';
 import { ProjectsContainer } from './components/ProjectsContainer.jsx';
 import { WorkContainer } from './components/WorkContainer.jsx';
 import { ContactContainer } from './components/ContactContainer.jsx';
+import { Footer } from './components/Footer.jsx';
 
 function App() {
 	let contentAreas = Object.keys(db);
@@ -20,6 +21,7 @@ function App() {
 			<ProjectsContainer projectsContent={db.Projects} />
 			<WorkContainer workContent={db.Work} />
 			<ContactContainer />
+			<Footer />
 		</main>
 	);
 }
